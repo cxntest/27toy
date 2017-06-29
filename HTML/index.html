@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<!–-uc强制竖屏–->
+	<meta name="screen-orientation" content="portrait">
+	<!–-QQ强制竖屏–->
+	<meta name="x5-orientation" content="portrait">
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1, minimum-scale=1">
+	<title>【潮汕麻将】叫胶己人一起来玩吧！</title>	
+	<script type="text/javascript">
+		var deviceWidth = document.documentElement.clientWidth;
+		if(deviceWidth > 640) deviceWidth = 640;
+			document.documentElement.style.fontSize = deviceWidth / 6.4;
+	</script>
+	<style type="text/css">
+	body{
+		text-align:center;
+		font-family:黑体;
+		margin:0;
+		} 
+	.main{
+		margin:0 auto;
+		padding:0;
+		float:left;
+		}
+	.header{
+		width:6.4rem;
+		height:4.05rem;
+		float:left;
+		background-image: url(images/header.jpg);
+		background-repeat:no-repeat;		
+		background-size:6.4rem 4.05rem;
+	}
+	.header img{	
+		width:6.4rem;
+		border-style:none;
+		border-width:0;
+	}
+	.downlaod{
+		width:6.4rem;
+		float:left;
+		padding-top:0.70rem;
+	}
+	.downlaod img{
+		width:2.59rem;
+		height:0.95rem;
+	}
+	.android{
+		float:left;
+		width:3.2rem;
+		}
+	.ios{ 
+		float:left; 
+		width:3.2rem;
+		}
+	.content{
+		float:left;
+		margin:0.6rem auto 0 auto;
+		padding:0.2rem;
+	}
+	.contenttitle{
+		background-image: url(point.png);
+		background-repeat:no-repeat;
+		background-size:0.4rem 0.55rem;
+		float:left;		
+		padding-top:0.03rem;
+		padding-left:0.38rem;
+		font-size:0.36rem;
+		width:2rem;		
+		height:0.57rem;
+	}
+	.line_1{
+		margin-top:0.04rem;
+		float:left;
+		background-image: url(line-1.png);
+		background-repeat:no-repeat;
+		background-size:6.66rem 0.02rem;
+		width:6.4rem;
+		height:0.02rem;
+	}
+	.contentp{
+		margin:0.1rem 0.2rem;
+		text-align:left;
+		float:left;
+		padding-top:0.3rem;
+		font-size:0.28rem;
+		width:5.7rem
+	}	
+	.footer{
+		float:left;
+		margin:0.1rem auto;
+		padding:0.2rem;
+		width:6.4rem;
+	}
+	.footerp{
+		float:left;
+		width:6.4rem;		
+		margin-left:-0.4rem;
+		text-align:center;
+		padding-top:0.23rem;
+		font-size:0.25rem;
+	}
+	.line_2{
+		background-color:#000;
+		margin-top:0.04rem;
+		margin-left:-0.2rem;
+		float:left;
+		width:6.4rem;
+		height:0.02rem;
+		clear:both;
+	}
+	.footerm{
+		float:left;
+		margin:0.1rem auto;
+		padding:0.2rem;
+		width:6.4rem;
+	}
+	.footerpm{
+		float:left;
+		width:6.4rem;		
+		margin-left:-0.4rem;
+		text-align:center;
+		padding-top:0.2rem;
+		font-size:0.25rem;
+	}
+	.line_3{
+		background-color:#000;
+		margin-top:1.4rem;
+		margin-left:-0.2rem;
+		float:left;
+		width:6.4rem;
+		height:0.02rem;
+		clear:both;
+	}
+	/*核心css*/
+	.wxtip{background: rgba(0,0,0,0.8); text-align: center; position: fixed; left:0; top: 0; width: 6.4rem; height: 100%; z-index: 998; display: none;}
+	.wxtip-icon{width: 6.4rem; display: block; position: absolute;}
+	</style>
+</head>
+ 
+<body style="text-align:center">
+
+
+	<div class="main">
+		<div class="header">
+		</div>
+		<div class="downlaod">
+			<div class="ios">
+				<img id="androiddown" src="./images/ios.png" alt="" onclick="location='https://itunes.apple.com/cn/app/id1243990055'" />
+			</div>
+			<div class="android"><img id="iosdown" src="./images/android.png" alt="" onClick="location='https://www.pgyer.com/vAjb'" /></div>
+		</div>
+		<div class="content">
+			<span class="contenttitle">游戏介绍</span>
+			<div class="line_1">
+			</div>
+			<span class="contentp">《胶己人雀友会》是潮汕胶己人出品的一款经典麻将手机游戏。使用潮汕地方特色四人麻将，在传统的麻将游戏中加入潮汕地区特色，游戏更具乡土人情。游戏玩法简单容易上手，又不显单调。赶紧下载和小伙伴们约一局吧。</span>			
+		</div>
+		<div class="footer">
+			<span class="line_1" />
+		  <span class="footerp">
+			抵制不良游戏，拒绝盗版游戏，<br />
+			注意自我保护，谨防受骗上当，<br />
+			适度游戏益脑，沉迷游戏伤身，<br />
+			合理安排时间，享受健康生活。<br />
+		  </span>
+			<span class="line_2" />
+			<span class="footerp">
+			<p href="http://www.miitbeian.gov.cn">&nbsp;</p>
+			</span>
+		</div>
+		<div class="wxtip" id="JweixinTip">
+			<img class="wxtip-icon" src="./images/weixin-tip.png" alt=""/>
+		</div>
+		<div class="wxtip" id="JweixinTip">
+			<img class="wxtip-icon" src="./images/weixin-tip.png" alt=""/>
+		</div>
+	</div>
+</body>
+	<script type="text/javascript">
+		function is_weixin()
+		{
+			var ua = navigator.userAgent;
+			return !!/MicroMessenger/i.test(ua);
+		}
+		function weixinTip(ele){
+			var isWeixin = is_weixin();
+			if(isWeixin){
+				ele.onclick=function(e){
+					window.event? window.event.returnValue = false : e.preventDefault();
+					document.getElementById('JweixinTip').style.display='block';
+				}
+				document.getElementById('JweixinTip').onclick=function(){
+					this.style.display='none';
+				}
+			}
+		}
+		var btn1 = document.getElementById('androiddown');//下载一
+		weixinTip(btn1);
+		var btn2 = document.getElementById('iosdown'); //下载二
+		weixinTip(btn2);
+		
+		if(is_weixin()){
+			document.getElementById('JweixinTip').style.display='block';
+		}
+	</script>
+</html>
